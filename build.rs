@@ -4,7 +4,7 @@ use std::env;
 use std::path::PathBuf;
 
 fn main() {
-    println!("cargo:rustc-link-lib=lib/f4se_common");
+    println!("cargo:rustc-link-lib=lib/f4se/build/f4se/f4se_common/Release/f4se_common");
 
     println!("cargo:rerun-if-changed=wrapper.h");
 
